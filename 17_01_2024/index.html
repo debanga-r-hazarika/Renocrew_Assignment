@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>17-01-2024</title>
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,400&display=swap");
 
-        * { 
-            font-family: 'Raleway', sans-serif;
-            color: white;
-            margin: 10;
-            padding: 10;
-        }
+      * {
+        font-family: "Raleway", sans-serif;
+        color: white;
+        margin: 10;
+        padding: 10;
+      }
 
-        body {
-            background-image: url('https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg');
-            background-size: 50%; 
-            padding: 45px;
-            display: flex;
-        }
-
+      body {
+        background-image: url("https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg");
+        background-size: 50%;
+        padding: 45px;
+        display: flex;
+      }
 
       .card {
         width: 300px;
@@ -52,8 +51,29 @@
         color: #ffffff;
       }
 
-      .card-content{
+      .card-content {
         background-color: rgba(0, 230, 222, 0.489);
+      }
+
+      .buy-now {
+        background-color: white;
+        color: #e8be3e;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 10px 2px;
+        cursor: pointer;
+        font-family: "Raleway", sans-serif;
+      }
+
+      .buy-now:hover {
+        background-color: #e8be3e;
+        color: white;
+        transition: all 0.3s ease;
       }
     </style>
   </head>
@@ -68,32 +88,34 @@
       <div class="card-content">
         <h2 class="card-title">Oil Painting</h2>
         <p class="card-text">For the price of $249.00</p>
+        <button class="buy-now">Buy Now</button>
       </div>
     </div>
 
     <div class="card">
-        <img
-          src="https://images.pexels.com/photos/13722242/pexels-photo-13722242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="HD Photo"
-          class="card-image"
-        />
-        <div class="card-content">
-          <h2 class="card-title">Portait</h2>
-          <p class="card-text">For the price of $299.00</p>
-        </div>
+      <img
+        src="https://images.pexels.com/photos/13722242/pexels-photo-13722242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="HD Photo"
+        class="card-image"
+      />
+      <div class="card-content">
+        <h2 class="card-title">Portait</h2>
+        <p class="card-text">For the price of $299.00</p>
+        <button class="buy-now">Buy Now</button>
       </div>
+    </div>
 
-      <div class="card">
-        <img
-          src="https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg"
-          alt="HD Photo"
-          class="card-image"
-        />
-        <div class="card-content">
-          <h2 class="card-title">HD Photo</h2>
-          <p class="card-text">For the price of $149.00</p>
-        </div>
+    <div class="card">
+      <img
+        src="https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg"
+        alt="HD Photo"
+        class="card-image"
+      />
+      <div class="card-content">
+        <h2 class="card-title">HD Photo</h2>
+        <p class="card-text">For the price of $149.00</p>
+        <button class="buy-now">Buy Now</button>
       </div>
-
+    </div>
   </body>
 </html>
